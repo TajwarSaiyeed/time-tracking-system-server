@@ -49,7 +49,13 @@ Before running the application, make sure you have the following installed:
 5. Run the application:
 
    ```bash
-   npm start || npm run dev
+   npm start
+   ```
+
+   or
+
+   ```bash
+   npm run dev
    ```
 
 ## Usage
