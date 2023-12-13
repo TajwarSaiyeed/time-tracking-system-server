@@ -33,7 +33,13 @@ app.get("/", (req, res) => {
   res.send("Server is ready");
 });
 
-// middlewares error handlers (not found, error)
+/**
+ * Middleware for handling 404 errors and general error handling.
+ * @module error.middleware
+ * @type {Object}
+ * @property {function} notFound - Middleware for handling 404 errors.
+ * @property {function} errorHandler - Middleware for general error handling.
+ */
 app.use(notFound);
 app.use(errorHandler);
 
