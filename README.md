@@ -55,3 +55,7 @@ Before running the application, make sure you have the following installed:
 ## Usage
 
 - Access the application at `http://localhost:8000`.
+
+# Client
+
+The Client git repository can be found [here](https://github.com/TajwarSaiyeed/time-tracking-system-client)
